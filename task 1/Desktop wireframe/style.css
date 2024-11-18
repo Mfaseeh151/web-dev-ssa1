@@ -1,0 +1,372 @@
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #e9e9e9;
+  color: #000000;
+}
+h1,h2{
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background-color: #e9e9e9;
+  padding: 20px 0;
+  
+}
+
+.header-container {
+  text-align: center;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  text-align: left;
+  position: relative;
+  left: -80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+/* Main content container styling */
+main {
+  width: 60%;
+  margin: 20px auto;
+  background-color: white;
+  padding-left: 50px;
+  border: 1px solid #ccc;
+  align-items: center;
+
+}
+
+/* Intro section styling */
+.intro h1 {
+  font-size: 100px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.intro h2 {
+font-size: 36px;
+
+}
+
+.Sub-Heading {
+  font-size: 16px;
+  padding-right: 370px;
+}
+
+
+
+/* Content Section Styling */
+.content-grid {
+  padding: 40px;
+  padding-top: 0px;
+  font-size: 17px;
+  column-count: 3;
+  column-gap: 25px;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.column p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Albums section styling for wireframe look */
+.albums {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.featured-album img {
+  width: 100%;
+  height: auto;
+}
+
+.album-covers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.album-covers img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+/* Author section styling */
+.author {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.author p {
+  font-size: 17px;
+}
+
+
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #14181d;
+  color: white;
+}
+/* Responsive Design for Small Mobile Screens */
+@media (max-width: 360px) and (min-width:540px) {
+  .logo img {
+      width: 80px;
+  }
+  
+  .intro h1 {
+      font-size: 24px;
+  }
+  
+  .intro h2 {
+      font-size: 16px;
+  }
+  
+  nav a {
+      font-size: 12px;
+  }
+  
+  .content h1 {
+      font-size: 18px;
+  }
+  
+  .content p {
+      font-size: 13px;
+  }
+  
+  .albums {
+      grid-template-columns: 1fr;
+  }
+  
+  .profile img {
+      width: 60px;
+      height: 60px;
+  }
+  
+  footer {
+      font-size: 10px;
+  }
+}
+@media (max-width: 540px) and (min-width:720px) {
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #e9e9e9;
+  color: #000000;
+}
+
+/* Header styling */
+header {
+  background-color: #e9e9e9;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Main content container styling */
+main {
+  width: 90%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Intro section styling */
+.intro h1 {
+  font-size: 45px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 45px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 14px;
+}
+
+/* Content Section Styling */
+.content-section .content {
+  margin-bottom: 20px;
+}
+
+.content h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Albums section styling */
+.albums {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.album-cover img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+/* Author section styling */
+.author {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.author h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.author p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #14181d;
+  color: white;
+}
+}
+
+
+
+/* Responsive Design for Tablet Layout */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .content-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .content {
+    flex: 1 1 45%;
+  }
+
+  nav {
+    gap: 30px;
+  }
+
+  .albums {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+}
